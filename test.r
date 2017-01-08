@@ -1,0 +1,6 @@
+els2002 = read.csv(file="./resources/ELS2002.csv", head=TRUE, sep=",")
+head(els2002)
+attach(els2002)
+mean(income2011)
+median(income2011)
+hist(income2011, breaks=20)
